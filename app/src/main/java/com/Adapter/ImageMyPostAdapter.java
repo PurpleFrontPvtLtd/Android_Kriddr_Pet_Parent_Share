@@ -1,15 +1,11 @@
 package com.Adapter;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.net.Uri;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
 
 import com.Model.PostDetailModel;
 
@@ -24,7 +20,7 @@ import com.facebook.imagepipeline.request.ImageRequestBuilder;
 
 import java.util.List;
 
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.R;
 
 public class ImageMyPostAdapter extends BaseAdapter {
     Context scrnContext;

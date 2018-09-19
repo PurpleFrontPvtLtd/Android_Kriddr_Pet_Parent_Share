@@ -12,8 +12,6 @@ import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -37,7 +35,6 @@ import com.Model.DocumentModel;
 import com.Model.Gen_Response_Model;
 import com.Model.NotesModel;
 import com.Model.PetDetailsModel;
-import com.Model.ResponseModel;
 import com.Model.UserModel;
 import com.api.ApiClient;
 import com.api.ApiInterface;
@@ -69,8 +66,8 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
-import purplefront.com.kriddrpetparent.KridderNavigationActivity;
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.KridderNavigationActivity;
+import kriddrpetparent.com.kriddr.R;
 
 
 import static android.app.Activity.RESULT_OK;

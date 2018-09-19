@@ -1,16 +1,11 @@
-package purplefront.com.kriddrpetparent;
+package kriddrpetparent.com.kriddr;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.ImageView;
 
-import com.Model.UserModel;
 import com.iface.FragmentCallInterface;
 import com.iface.InterfaceActionBarUtil;
-import com.iface.InterfaceUserModel;
-import com.main.scrn.Fragment.Login;
 import com.main.scrn.Fragment.WelcomeScreen;
 import com.util.ActionBarUtil;
 import com.util.GenFragmentCall_Main;

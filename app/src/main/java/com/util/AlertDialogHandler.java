@@ -2,7 +2,6 @@ package com.util;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
@@ -14,8 +13,7 @@ import android.widget.Toast;
 
 import com.db.DBHelper;
 
-import purplefront.com.kriddrpetparent.MainActivity;
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.MainActivity;
 
 /**
  * Created by Niranjan Reddy on 27-02-2018.

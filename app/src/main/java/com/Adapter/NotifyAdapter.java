@@ -4,14 +4,10 @@ package com.Adapter;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Context;
-import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Build;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.widget.RecyclerView;
 import android.text.Html;
 import android.view.LayoutInflater;
@@ -24,7 +20,6 @@ import android.widget.TextView;
 
 
 import com.Model.Nfy_Variable_Model;
-import com.Model.NotesModel;
 import com.Model.NotificationModel;
 import com.facebook.common.util.UriUtil;
 import com.facebook.drawee.drawable.AutoRotateDrawable;
@@ -44,7 +39,7 @@ import com.bumptech.glide.request.target.SimpleTarget;*/
 import java.util.ArrayList;
 import java.util.List;
 
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.R;
 
 /**
  * Created by pf-05 on 2/22/2018.

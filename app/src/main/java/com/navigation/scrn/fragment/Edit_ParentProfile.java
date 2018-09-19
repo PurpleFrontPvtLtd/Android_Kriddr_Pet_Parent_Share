@@ -1,11 +1,9 @@
 package com.navigation.scrn.fragment;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -25,7 +23,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.Model.Gen_Response_Model;
@@ -58,8 +55,8 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
-import purplefront.com.kriddrpetparent.KridderNavigationActivity;
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.KridderNavigationActivity;
+import kriddrpetparent.com.kriddr.R;
 
 import static android.app.Activity.RESULT_OK;
 

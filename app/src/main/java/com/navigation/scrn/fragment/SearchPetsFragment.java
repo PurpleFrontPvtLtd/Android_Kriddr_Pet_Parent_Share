@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,7 +27,6 @@ import com.iface.FragmentCallInterface;
 import com.iface.InterfaceActionBarUtil;
 import com.iface.InterfaceUserModel;
 import com.util.ActionBarUtil;
-import com.util.AlertDialogHandler;
 import com.util.GenFragmentCall_Main;
 import com.util.NetworkConnection;
 
@@ -40,8 +38,8 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
-import purplefront.com.kriddrpetparent.KridderNavigationActivity;
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.KridderNavigationActivity;
+import kriddrpetparent.com.kriddr.R;
 
 /**
  * Created by Niranjan Reddy on 08-03-2018.

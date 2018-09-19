@@ -13,14 +13,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.Adapter.ShareProfileAdapter;
 import com.Model.Gen_Response_Model;
-import com.Model.ResponseModel;
 import com.Model.SearchPersonResponseShare;
 import com.Model.SearchPersonToShare;
 import com.Model.UserModel;
@@ -39,7 +37,6 @@ import com.util.AlertDialogHandler;
 import com.util.GenFragmentCall_Main;
 import com.util.NetworkConnection;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import dmax.dialog.SpotsDialog;
@@ -47,7 +44,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.R;
 
 public class Result_SearchPersonShare extends Fragment implements ShareProfileAdapter.shareClickInterface {
     View rootView;

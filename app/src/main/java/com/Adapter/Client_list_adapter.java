@@ -2,7 +2,6 @@ package com.Adapter;
 
 import android.content.Context;
 
-import android.graphics.Color;
 import android.net.Uri;
 
 import android.support.v7.widget.RecyclerView;
@@ -16,7 +15,6 @@ import android.widget.TextView;
 import com.Model.Client_info_Model;
 import com.facebook.common.util.UriUtil;
 import com.facebook.drawee.drawable.AutoRotateDrawable;
-import com.facebook.drawee.drawable.ProgressBarDrawable;
 import com.facebook.drawee.drawable.ScalingUtils;
 import com.facebook.drawee.generic.GenericDraweeHierarchy;
 import com.facebook.drawee.generic.GenericDraweeHierarchyBuilder;
@@ -29,7 +27,7 @@ import com.facebook.imagepipeline.request.ImageRequestBuilder;
 import java.util.ArrayList;
 import java.util.List;
 
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.R;
 
 /**
  * Created by Niranjan Reddy on 07-03-2018.

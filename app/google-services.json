@@ -1,39 +1,35 @@
 {
   "project_info": {
-    "project_number": "356999512800",
-    "firebase_url": "https://kriddrpetparent.firebaseio.com",
-    "project_id": "kriddrpetparent",
-    "storage_bucket": "kriddrpetparent.appspot.com"
+    "project_number": "673479960284",
+    "firebase_url": "https://kriddrpetparentapp.firebaseio.com",
+    "project_id": "kriddrpetparentapp",
+    "storage_bucket": "kriddrpetparentapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:356999512800:android:4c49d42ffdb97d9d",
+        "mobilesdk_app_id": "1:673479960284:android:9589df9675fd5cf8",
         "android_client_info": {
-          "package_name": "purplefront.com.kriddrpetparent"
+          "package_name": "kriddrpetparent.com.kriddr"
         }
       },
       "oauth_client": [
         {
-          "client_id": "356999512800-ihpcgqli8bhug53veqsu06sap7r625nb.apps.googleusercontent.com",
+          "client_id": "673479960284-krn1s19pnt7suriagqr7o3tb06oi8nj8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "purplefront.com.kriddrpetparent",
+            "package_name": "kriddrpetparent.com.kriddr",
             "certificate_hash": "d86a4bc1a6b9d01d34e98f15e6e4d06080a49cb0"
           }
         },
         {
-          "client_id": "356999512800-2hi9ppqnct2mn1b0j92o0fr8b5po481c.apps.googleusercontent.com",
-          "client_type": 3
-        },
-        {
-          "client_id": "356999512800-2hi9ppqnct2mn1b0j92o0fr8b5po481c.apps.googleusercontent.com",
+          "client_id": "673479960284-ej3d6n289d0bs8dh7ck1hihcbs2o3m7o.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA5F5DGDtm-_PM1U8Qe24-X8ZgG64nTDLw"
+          "current_key": "AIzaSyAl3vB0RPEtcbsjPJNgLTklCNq6YHnpbp0"
         }
       ],
       "services": {
@@ -44,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "356999512800-2hi9ppqnct2mn1b0j92o0fr8b5po481c.apps.googleusercontent.com",
+              "client_id": "673479960284-ej3d6n289d0bs8dh7ck1hihcbs2o3m7o.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

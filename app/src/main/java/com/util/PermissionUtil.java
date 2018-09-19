@@ -11,8 +11,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.widget.Toast;
 
-import purplefront.com.kriddrpetparent.SplashScreenActivity;
-
 /**
  * Created by Niranjan Reddy on 28-02-2018.
  */

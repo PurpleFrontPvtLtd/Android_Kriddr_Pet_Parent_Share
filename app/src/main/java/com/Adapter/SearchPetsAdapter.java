@@ -1,10 +1,7 @@
 package com.Adapter;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.net.Uri;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,7 +28,7 @@ import com.facebook.imagepipeline.request.ImageRequestBuilder;
 
 import java.util.List;
 
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.R;
 
 /**
  * Created by Niranjan Reddy on 09-03-2018.

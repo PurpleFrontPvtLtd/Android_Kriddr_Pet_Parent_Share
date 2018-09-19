@@ -1,15 +1,11 @@
 package com.main.scrn.Fragment;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -18,12 +14,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.Model.GenResModel;
 import com.Model.UserModel;
 import com.api.ApiClient;
 import com.api.ApiInterface;
@@ -34,19 +27,13 @@ import com.util.ActionBarUtil;
 import com.util.GenFragmentCall_Main;
 import com.util.NetworkConnection;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import dmax.dialog.SpotsDialog;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
-import io.reactivex.functions.Consumer;
 import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
-import purplefront.com.kriddrpetparent.KridderNavigationActivity;
-import purplefront.com.kriddrpetparent.MainActivity;
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.KridderNavigationActivity;
+import kriddrpetparent.com.kriddr.R;
 
 /**
  * Created by pf-05 on 1/30/2018.

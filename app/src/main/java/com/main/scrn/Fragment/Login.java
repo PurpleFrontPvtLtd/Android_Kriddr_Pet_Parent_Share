@@ -11,7 +11,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.telephony.PhoneNumberFormattingTextWatcher;
 import android.text.InputFilter;
-import android.text.InputType;
 import android.text.Spanned;
 
 import android.view.LayoutInflater;
@@ -36,16 +35,16 @@ import java.util.List;
 import dmax.dialog.SpotsDialog;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
-import io.reactivex.functions.Consumer;
 import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.R;
 
 /**
  * Created by pf-05 on 1/30/2018.
  */
 
-public class Login extends Fragment {
+public class
+Login extends Fragment {
 
     View rootView;
     private EditText firstName, mobileNo;

@@ -1,4 +1,4 @@
-package purplefront.com.kriddrpetparent;
+package kriddrpetparent.com.kriddr;
 
 import org.junit.Test;
 

@@ -1,10 +1,7 @@
 package com.Adapter;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.net.Uri;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,7 +21,7 @@ import com.facebook.imagepipeline.request.ImageRequestBuilder;
 
 import java.util.List;
 
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.R;
 
 public class ShareProfileAdapter extends RecyclerView.Adapter<ShareProfileAdapter.MyViewHolder> {
     Context scrnContxt;

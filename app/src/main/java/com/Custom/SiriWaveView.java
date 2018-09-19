@@ -9,7 +9,7 @@ import android.graphics.Path;
 import android.util.AttributeSet;
 import android.view.View;
 
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.R;
 
 /**
  * Created by Alex on 6/25/2016.

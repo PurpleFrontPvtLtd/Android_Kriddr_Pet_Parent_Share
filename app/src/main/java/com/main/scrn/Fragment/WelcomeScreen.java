@@ -5,12 +5,9 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,7 +26,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.R;
 
 /**
  * Created by pf-05 on 1/30/2018.
@@ -56,7 +53,7 @@ public class WelcomeScreen extends Fragment {
 
         rootView = inflater.inflate(R.layout.frag_welcome, container, false);
 
-        signin_layout = rootView.findViewById(R.id.signin_layout);
+     //   signin_layout = rootView.findViewById(R.id.signin_layout);
 
 
         signin_layout.setOnClickListener(new View.OnClickListener() {

@@ -1,4 +1,4 @@
-package purplefront.com.kriddrpetparent;
+package kriddrpetparent.com.kriddr;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("purplefront.com.kriddrpetparent", appContext.getPackageName());
+        assertEquals("kriddrpetparent.com.kriddr", appContext.getPackageName());
     }
 }

@@ -13,7 +13,7 @@ import com.Model.Document_categary_model;
 
 import java.util.List;
 
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.R;
 
 public class SpinnerArrayAdapter extends ArrayAdapter {
     Context scrnContxt;

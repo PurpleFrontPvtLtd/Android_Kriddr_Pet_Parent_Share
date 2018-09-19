@@ -13,7 +13,7 @@ import com.Model.NotesModel;
 import java.util.ArrayList;
 import java.util.List;
 
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.R;
 
 /**
  * Created by pf-05 on 2/22/2018.

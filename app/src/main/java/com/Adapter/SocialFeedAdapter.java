@@ -2,11 +2,7 @@
 package com.Adapter;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.Color;
 import android.net.Uri;
-import android.os.Bundle;
-import android.support.annotation.NonNull;
 /*import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;*/
 import android.support.v7.widget.RecyclerView;
@@ -24,21 +20,18 @@ import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;*/
 import com.facebook.common.util.UriUtil;
 import com.facebook.drawee.drawable.AutoRotateDrawable;
-import com.facebook.drawee.drawable.ProgressBarDrawable;
 import com.facebook.drawee.drawable.ScalingUtils;
 import com.facebook.drawee.generic.GenericDraweeHierarchy;
 import com.facebook.drawee.generic.GenericDraweeHierarchyBuilder;
 import com.facebook.drawee.generic.RoundingParams;
 import com.facebook.drawee.view.SimpleDraweeView;
-import com.facebook.imagepipeline.common.ResizeOptions;
 import com.facebook.imagepipeline.request.ImageRequest;
 import com.facebook.imagepipeline.request.ImageRequestBuilder;
-import com.navigation.scrn.fragment.CommentScreen;
 import com.navigation.scrn.fragment.OwnFeedFragment;
 
 import java.util.List;
 
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.R;
 
 public class SocialFeedAdapter extends RecyclerView.Adapter<SocialFeedAdapter.SocialFeedHolder> {
 

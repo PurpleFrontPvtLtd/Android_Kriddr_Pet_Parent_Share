@@ -5,8 +5,6 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -14,8 +12,6 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Base64;
 import android.view.Gravity;
@@ -30,9 +26,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.Adapter.SearchPetsAdapter;
-import com.Model.Client_collection_model;
-import com.Model.Client_info_Model;
 import com.Model.Gen_Response_Model;
 import com.Model.UserModel;
 import com.api.ApiClient;
@@ -49,16 +42,13 @@ import com.iface.InterfaceActionBarUtil;
 import com.iface.InterfaceUserModel;
 
 import com.theartofdev.edmodo.cropper.CropImage;
-import com.theartofdev.edmodo.cropper.CropImageView;
 import com.util.ActionBarUtil;
-import com.util.AlertDialogHandler;
 import com.util.GenFragmentCall_Main;
 import com.util.ImageChooser_Crop;
 import com.util.NetworkConnection;
 import com.util.PermissionUtil;
 
 import java.io.ByteArrayOutputStream;
-import java.io.File;
 
 import dmax.dialog.SpotsDialog;
 
@@ -66,12 +56,8 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
-import okhttp3.ResponseBody;
-import purplefront.com.kriddrpetparent.KridderNavigationActivity;
-import purplefront.com.kriddrpetparent.R;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
+import kriddrpetparent.com.kriddr.KridderNavigationActivity;
+import kriddrpetparent.com.kriddr.R;
 
 import static android.app.Activity.RESULT_OK;
 

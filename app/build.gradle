@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "purplefront.com.kriddrpetparent"
+        applicationId "kriddrpetparent.com.kriddr"
         minSdkVersion 16
         multiDexEnabled true
         targetSdkVersion 27

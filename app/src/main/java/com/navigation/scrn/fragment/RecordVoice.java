@@ -4,7 +4,6 @@ package com.navigation.scrn.fragment;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.media.AudioRecord;
 import android.media.MediaRecorder;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -14,8 +13,6 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -30,15 +27,14 @@ import com.iface.FragmentCallInterface;
 import com.iface.InterfaceActionBarUtil;
 import com.iface.InterfaceUserModel;
 import com.util.ActionBarUtil;
-import com.util.AlertDialogHandler;
 import com.util.GenFragmentCall_Main;
 import com.util.TimeFormat;
 
 import java.io.File;
 import java.io.IOException;
 
-import purplefront.com.kriddrpetparent.KridderNavigationActivity;
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.KridderNavigationActivity;
+import kriddrpetparent.com.kriddr.R;
 
 /**
  * Created by Niranjan Reddy on 10-04-2018.

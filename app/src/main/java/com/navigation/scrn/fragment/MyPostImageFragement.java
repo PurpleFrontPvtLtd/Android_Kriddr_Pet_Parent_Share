@@ -2,15 +2,12 @@ package com.navigation.scrn.fragment;
 
 import android.app.AlertDialog;
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -46,7 +43,6 @@ import com.iface.FragmentCallInterface;
 import com.iface.InterfaceActionBarUtil;
 import com.iface.InterfaceUserModel;
 import com.util.ActionBarUtil;
-import com.util.AlertDialogHandler;
 import com.util.GenFragmentCall_Main;
 import com.util.NetworkConnection;
 
@@ -57,8 +53,8 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.observers.DisposableObserver;
 import io.reactivex.schedulers.Schedulers;
-import purplefront.com.kriddrpetparent.KridderNavigationActivity;
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.KridderNavigationActivity;
+import kriddrpetparent.com.kriddr.R;
 
 public class MyPostImageFragement extends Fragment implements ImageMyPostAdapter.CommentInterface
 

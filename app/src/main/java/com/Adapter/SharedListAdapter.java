@@ -1,10 +1,7 @@
 package com.Adapter;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.net.Uri;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
-import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,9 +10,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.Model.SearchPersonToShare;
 import com.Model.SharedListDetailModel;
-import com.Model.SharedListModel;
 import com.facebook.common.util.UriUtil;
 import com.facebook.drawee.generic.RoundingParams;
 import com.facebook.drawee.view.SimpleDraweeView;
@@ -29,7 +24,7 @@ import com.bumptech.glide.request.target.SimpleTarget;*/
 
 import java.util.List;
 
-import purplefront.com.kriddrpetparent.R;
+import kriddrpetparent.com.kriddr.R;
 
 public class SharedListAdapter extends RecyclerView.Adapter<SharedListAdapter.MyViewHolder> {
     Context scrnContxt;
