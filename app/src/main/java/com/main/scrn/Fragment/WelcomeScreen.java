@@ -53,7 +53,7 @@ public class WelcomeScreen extends Fragment {
 
         rootView = inflater.inflate(R.layout.frag_welcome, container, false);
 
-     //   signin_layout = rootView.findViewById(R.id.signin_layout);
+        signin_layout = rootView.findViewById(R.id.signin_layout);
 
 
         signin_layout.setOnClickListener(new View.OnClickListener() {

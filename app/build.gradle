@@ -13,10 +13,10 @@ android {
     }
     signingConfigs{
         release{
-            storeFile file("../purple_kriddr_pet_parent_keystore")
-            storePassword "purplefront123"
-            keyAlias "kriddr_pet_parent"
-            keyPassword "purplefront123"
+            storeFile file("../kriddr_pet_parent.keystore")
+            storePassword "dev@kriddr"
+            keyAlias "KriddrPetParent"
+            keyPassword "kriddr123"
         }
     }
     buildTypes {
