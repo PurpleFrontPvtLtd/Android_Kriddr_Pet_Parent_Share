@@ -20,7 +20,7 @@ import com.bumptech.glide.request.target.SimpleTarget;
 
 import java.util.List;
 
-import purplefront.com.kriddrpetparent.R;
+
 
 */
 /**
